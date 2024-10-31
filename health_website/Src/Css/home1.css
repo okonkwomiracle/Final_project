@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(https://dutylinkshealthcare.org/wp-content/uploads/2020/08/diagnostic-lab-hero-bg.jpg);
+}
+#background-color {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+nav  {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+
+
+.logo a {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo img {
+    margin-right: 10px;
+     
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+
+nav ul li {
+    margin-left: 10px; 
+    
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: larger;
+}
+nav ul li a:hover {
+    background-color: rgb(11, 11, 147);
+    border-radius: 5px;
+}
+
+
+nav ul li button {
+    padding: 10px 20px;
+    background-color: rgb(6, 6, 152);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 10px;
+}
+nav ul li button:hover {
+    background-color: #0056b3;
+
+}
+body {
+    background: linear-gradient(darkgray white);
+}
+.hamburger-menu {
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+    display: none;
+}
+
+
+/* Adding a Media query for all devices on mobile*/
+
+@media screen {
+    
+}

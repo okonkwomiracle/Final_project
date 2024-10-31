@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ada</title>
+    <link rel="stylesheet" href="Src/Css/ada.css">
+    
+</head>
+<body>
+
+   
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://dutylinkshealthcare.org/wp-content/uploads/2022/01/Duty-Links-Logo-3-160x53-1.png" alt="">
+          </div>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="testimonial.html">Testimonial</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="appointment.html"><button>Make an Appointment</button></a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        
+      </nav>
+
+      <img src="https://dutylinkshealthcare.org/wp-content/uploads/2022/01/DSC_6083-scaled.jpg"alt="" id="image-lnik"> 
+    <script>
+      
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+
+
+    </script>
+  <div id="menu"></div>
+ </body>
+ </html>
